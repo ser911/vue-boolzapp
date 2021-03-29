@@ -75,7 +75,11 @@ h5{
  overflow-y: scroll;
 }
 .contacts img {
-  display: none;
+
+}
+.contacts ul li {
+  display: flex;
+  align-items: center;
 }
 
 

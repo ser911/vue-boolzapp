@@ -1,11 +1,3 @@
-var avatar2 = document.getElementById("av2");
-var avatar3 = document.getElementById("av3");
-var avatar4 = document.getElementById("av4");
-var avatar5 = document.getElementById("av5");
-
-
-
-
 var app = new Vue (
 {
 el: "#contact-list",
@@ -17,15 +9,15 @@ data:{
     },
     {
       name: "Fabio",
-      img: avatar3
+      img: "img/avatar_3.jpg"
     },
     {
       name: "Samuele",
-      img:  avatar4
+      img:  "img/avatar_4.jpg"
     },
     {
       name: "Luigi",
-      img: avatar5
+      img: "img/avatar_5.jpg"
     }
   ],
 
