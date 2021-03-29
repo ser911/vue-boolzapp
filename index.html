@@ -46,9 +46,9 @@
 </div>
 <div class="contacts">
 <ul id="contact-list">
-  <li v-for="item in contacts">{{item.name}} {{item.img}}</li>
+  <li v-for="item in contacts">{{item.name}} <img id="av2" v-bind:src="item.img" alt=""></li>
 </ul>
-<img id="av2" v-bind:src="item.img" alt="">
+
 <img id="av3" src="img/avatar_3.jpg" alt="">
 <img id="av4" src="img/avatar_4.jpg" alt="">
 <img id="av5" src="img/avatar_5.jpg" alt="">
