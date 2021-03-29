@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
-
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   <title>Document</title>
 </head>
 <body>
@@ -45,7 +45,13 @@
   </div>
 </div>
 <div class="contacts">
-
+<ul id="contact-list">
+  <li v-for="name in contacts">{{name}} {{img}}</li>
+<img id="av2" src="img/avatar_2.jpg" alt="">
+<img id="av3" src="img/avatar_3.jpg" alt="">
+<img id="av4" src="img/avatar_4.jpg" alt="">
+<img id="av5" src="img/avatar_5.jpg" alt="">
+</ul>
 </div>
 </div>
 
@@ -66,6 +72,13 @@
 
   </div>
   <section class="chat-area">
+<div class="guest-text">
+
+</div>
+<div class="user-text">
+
+
+</div>
 
   </section>
   <section class="chat-input">
@@ -75,5 +88,6 @@
   </section>
 </div>
 </section>
+<script src="js\myscript.js" charset="utf-8"></script>
 </body>
 </html>

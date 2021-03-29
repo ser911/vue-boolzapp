@@ -74,6 +74,9 @@ h5{
 .contacts{
  overflow-y: scroll;
 }
+.contacts img {
+  display: none;
+}
 
 
 .chat-box{
@@ -134,6 +137,10 @@ align-items: center;
   overflow-y: scroll;
 
 
+}
+
+.guest-text, .user-text{
+  width: 50%;
 }
 
 .chat-input{
