@@ -13,19 +13,19 @@ data:{
   contacts:[
     {
       name: "Michele",
-      img: "avatar2"
+      img: avatar2
     },
     {
       name: "Fabio",
-      img: "avatar3"
+      img: avatar3
     },
     {
       name: "Samuele",
-      img:  "avatar4"
+      img:  avatar4
     },
     {
       name: "Luigi",
-      img: "avatar5"
+      img: avatar5
     }
   ],
 
