@@ -13,7 +13,7 @@ data:{
   contacts:[
     {
       name: "Michele",
-      img: avatar2
+      img: "img/avatar_2.jpg"
     },
     {
       name: "Fabio",
