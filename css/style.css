@@ -116,3 +116,26 @@ align-items: center;
   font-size: 22px;
   color: #B1B1B1;
 }
+
+.chat-area{
+  background-image: url(../img/mine.jpg);
+/* height: calc(100% - 70px); */
+height: 80%;
+
+}
+
+.chat-input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.chat-input input{
+  width: 80%;
+}
+#emoji{
+  margin-left: 5%;
+}
+#micro{
+  margin-right: 5%;
+}
