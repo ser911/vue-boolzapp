@@ -1,6 +1,6 @@
 var app = new Vue (
 {
-el: "#contact-list",
+el: "#app",
 data:{
   contacts:[
     {

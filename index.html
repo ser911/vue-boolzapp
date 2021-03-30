@@ -13,7 +13,7 @@
 </head>
 <body>
 <section class="background"></section>
-<section class="wrapper">
+<section class="wrapper" id="app">
 <div class="w-left">
 <div class="w-left-header">
   <div class="w-left-header-user">
@@ -70,7 +70,7 @@
   </div>
   <section class="chat-area">
 <div class="chat-content">
-<p v-for="item in contacts[0].message">{{item.message}}</p>
+<p v-for="item in contacts[0].messages">{{item.message}}</p>
 </div>
 
 
