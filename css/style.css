@@ -173,3 +173,41 @@ align-items: center;
 #micro{
   margin-right: 5%;
 }
+.chat-content p{
+
+
+}
+.chat-content small{
+display: block;
+}
+
+.user{
+margin-bottom: 10px;
+border-radius: 5px;
+margin-left: 60%;
+display: block;
+/* background-color: #D5F9BA; */
+
+
+}
+.guest{
+margin-bottom: 10px;
+border-radius: 5px;
+margin-left: 15px;
+display: block;
+/* background-color: #fff; */
+
+}
+/* small {
+margin-left: 60%;
+} */
+
+  /* .u-date{
+    background-color: #D5F9BA;
+  }
+  .g-date{
+    background-color: #fff;
+  } */
+span{
+
+}

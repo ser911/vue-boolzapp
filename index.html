@@ -46,7 +46,7 @@
 </div>
 <div class="contacts">
 <ul id="contact-list">
-  <li v-for="item in contacts"><img v-bind:src="item.img" alt="">{{item.name}}</li>
+  <li v-for="(item,index) in contacts" @click="activeIndex = index"><img v-bind:src="item.img" alt="">{{item.name}}</li>
 </ul>
 
 </div>
@@ -55,9 +55,9 @@
 <div class="w-right">
   <div class="w-right-header">
     <div class="w-right-chatter-info">
-      <img src="img/avatar_1.jpg" alt="">
+      <img v-bind:src="contacts[activeIndex].img" alt="">
         <div class="user-info">
-          <h3>Michele</h3>
+          <h3>{{contacts[activeIndex].name}}</h3>
           <h5>Ultimo accesso oggi alle</h5>
           </div>
     </div>
@@ -70,7 +70,15 @@
   </div>
   <section class="chat-area">
 <div class="chat-content">
-<p v-for="item in contacts[0].messages">{{item.message}}</p>
+
+
+      <span v-bind:class="{'user':item.status == 'sent', 'guest':item.status == 'received'}" v-for="item in contacts[activeIndex].messages">
+      {{item.message}}
+      <small>{{item.date}}</small>
+   </span>
+<!-- <p v-bind:class="{'user': .item.status == 'sent'}" v-for="item in contacts[activeIndex].messages">{{item.message}}</p>
+<small>{{item.date}}</small> -->
+
 </div>
 
 
