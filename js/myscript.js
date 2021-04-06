@@ -100,7 +100,7 @@ data:{
 },
 methods: {
 addChat: function(){
-  msg = this.contacts[activeIndex].message;
+
 }
 
 }
