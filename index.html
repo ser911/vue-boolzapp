@@ -75,9 +75,11 @@
       <span v-bind:class="{'user':item.status == 'sent', 'guest':item.status == 'received'}" v-for="item in contacts[activeIndex].messages">
       {{item.message}}
       <small>{{item.date}}</small>
+      <div class="">
+        {{msg}}
+
+      </div>
    </span>
-<!-- <p v-bind:class="{'user': .item.status == 'sent'}" v-for="item in contacts[activeIndex].messages">{{item.message}}</p>
-<small>{{item.date}}</small> -->
 
 </div>
 
@@ -85,7 +87,7 @@
   </section>
   <section class="chat-input">
     <i id="emoji" class="far fa-smile"></i>
-    <input type="text" name="" value="" placeholder="Scrivi un messaggio">
+    <input v-model="msg" type="text" name="" value="" placeholder="Scrivi un messaggio">
     <i id="micro" class="fas fa-microphone-alt"></i>
   </section>
 </div>

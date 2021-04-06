@@ -211,3 +211,9 @@ margin-left: 60%;
 span{
 
 }
+#contact-list li:hover {
+  background-color: #EAEAEA;
+}
+#contact-list li:active {
+  background-color: #EAEAEA;
+}
