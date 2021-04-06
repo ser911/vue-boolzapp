@@ -95,12 +95,19 @@ data:{
        ],
     }
   ],
+
   msg: ""
 
 },
 methods: {
 addChat: function(){
+this.contacts[this.activeIndex].messages.push( {
+     date: '10/01/2020 15:50:00',
+     message: this.msg,
+     status: 'sent',
 
+ });
+ this.msg = "";
 }
 
 }

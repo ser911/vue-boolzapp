@@ -173,7 +173,7 @@ align-items: center;
 #micro{
   margin-right: 5%;
 }
-.chat-content p{
+.chat-content{
 
 
 }
@@ -185,18 +185,18 @@ display: block;
 margin-bottom: 10px;
 border-radius: 5px;
 margin-left: 60%;
-display: block;
-/* background-color: #D5F9BA; */
-
+display: inline-block;
+background-color: #D5F9BA;
+padding: 5px;
 
 }
 .guest{
 margin-bottom: 10px;
 border-radius: 5px;
 margin-left: 15px;
-display: block;
-/* background-color: #fff; */
-
+display: inline-block;
+background-color: #fff;
+padding: 5px;
 }
 /* small {
 margin-left: 60%;
