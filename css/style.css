@@ -173,8 +173,10 @@ align-items: center;
 #micro{
   margin-right: 5%;
 }
-.chat-content{
-
+.chat-content::after{
+display: table;
+content: "";
+clear: both;
 
 }
 .chat-content small{
@@ -184,19 +186,21 @@ display: block;
 .user{
 margin-bottom: 10px;
 border-radius: 5px;
-margin-left: 60%;
+margin-right: 20px;
 display: inline-block;
 background-color: #D5F9BA;
-padding: 5px;
+padding: 5px 10px;
+float: right;
 
 }
 .guest{
 margin-bottom: 10px;
 border-radius: 5px;
-margin-left: 15px;
+margin-left: 20px;
 display: inline-block;
 background-color: #fff;
-padding: 5px;
+padding: 5px 10px;
+float: left;
 }
 /* small {
 margin-left: 60%;
@@ -212,8 +216,5 @@ span{
 
 }
 #contact-list li:hover {
-  background-color: #EAEAEA;
-}
-#contact-list li:active {
-  background-color: #EAEAEA;
+background-color: #EAEAEA;
 }
